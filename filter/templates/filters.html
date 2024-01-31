@@ -1,0 +1,62 @@
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+</head>
+<body>
+
+    <form action="#">
+    <label for="lang">Cantidad de eventos</label>
+    <select name="Cantidad de eventos" id="lang">
+        <option value="0-5">0-5</option>
+        <option value="6-10">6-10</option>
+        <option value="11-15">11-15</option>
+        <option value="16-20">16-20</option>
+    </select>
+
+    <label for="lang">Genero de musica</label>
+    <select name="genero de musica" id="lang">
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Salsa">Salsa</option>
+    </select>
+
+    <label for="lang">Cantidad de participantes</label>
+    <select name="Cantidad de participantes" id="lang">
+        <option value="1-2">1-2</option>
+        <option value="3-4">3-4</option>
+        <option value="5-6">5-6</option>
+    </select>
+
+
+    <label for="lang">Ubicación</label>
+    <select name="Ubicación" id="lang">
+        <option value="Cali">Cali</option>
+        <option value="Medellin">Medellin</option>
+        <option value="Bogota">Bogota</option>
+    </select>
+
+
+    
+    
+    
+    <input type="submit" value="Enviar"/>
+
+
+</form>
+    
+</body>
+</html>
+
+
+
+
+
+{% endblock %}

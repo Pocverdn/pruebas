@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh; 
+    background-color: #6c3f81;
+  }
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color:  #e0dfe0;
+  }
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
